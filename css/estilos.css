@@ -12,22 +12,15 @@ html {
 
 body {
     font-size: 10px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
 }
+
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-}
-
-span {
-    color: green;
-}
-
-h1.titulo span {
-    font-size: 2rem;
-    color: blue;
+    font-weight: 700;
 }
 
 .titulo span {
      font-size: 2rem; 
-     color: red;
 }
