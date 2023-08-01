@@ -8,6 +8,11 @@
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
 }
 
 body {
@@ -15,10 +20,9 @@ body {
     font-family: 'Krub', sans-serif;
 }
 
-.titulo {
+.titulo, .subtitulo {
     text-align: center;
     font-size: 3.8rem;
-    font-weight: 700;
 }
 
 .titulo span {
@@ -69,4 +73,6 @@ body {
     background-image: url(/img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
